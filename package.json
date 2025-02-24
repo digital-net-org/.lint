@@ -1,9 +1,9 @@
 {
     "name": "digital-lint",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "BenoitSafari",
     "license": "MIT",
-    "main": "eslint.mjs",
+    "main": "index.mjs",
     "devDependencies": {
         "@eslint/js": "^9",
         "@rollup/plugin-commonjs": "latest",

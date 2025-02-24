@@ -26,16 +26,13 @@ npm i -D eslint prettier typescript-eslint @eslint/js eslint-plugin-import eslin
 #### Eslint
 Create a `eslint.config.mjs` file in the root of your project and add the following code:
 ```js
-import { eslintConfig } from 'digital-lint';
-export default eslintConfig;
+import { eslintDigitalConfig } from 'digital-lint';
+export default eslintDigitalConfig;
 ```
 
 #### Prettier
-Create a script in your `package.json` file and paste the following command:
-```
-prettier */**/*.ts --write --config path/to/.prettierrc
-```
-You can use this configuration in your vscode settings:
-```json
-"prettier.configPath": ".prettierrc",
+Create a `prettier.config.mjs` file in the root of your project and add the following code:
+```js
+import { prettierDigitalConfig } from 'digital-lint';
+export default prettierDigitalConfig;
 ```
